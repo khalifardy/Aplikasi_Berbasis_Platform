@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Pendaftaran Praktikan</title>
+  </head>
+  <body>
+    <h1>Formulir Pendaftaran Praktikan</h1>
+    <form>
+      <table width="120">
+        <tr>
+          <td>Nama</td>
+          <td>:</td>
+          <td width="900"><input type="text" name="nama" /></td>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td>:</td>
+          <td><input type="text" name="username" /></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>:</td>
+          <td><input type="password" name="pass" /></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>:</td>
+          <td><input type="text" name="email" value="input email" /></td>
+        </tr>
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="gender" value="male" checked/>Pria</input>
+            <input type="radio" name="gender" value="female" checked/>Wanita</input>
+          </td>
+
+        </tr>
+        <tr>
+          <td>Hobi</td>
+          <td>:</td>
+          <td>
+            <input type="checkbox" value="baca">Membaca</input></br>
+            <input type="checkbox" value="sepakbola">Sepakbola</input></br>
+            <input type="checkbox" value="menulis">Menulis</input></br>
+            <input type="checkbox" value="other">Lainnya</input>
+            
+          </td>
+        </tr>
+        <tr>
+          <td>Jenjang Pendidikan</td>
+          <td>:</td>
+          <td>
+            <select name="jp_input" class="dropdown">
+              <option value="">--------Pilih--------</option>
+              <option value="D3">D3</option>
+              <option value="S1">S1</option>
+              <option value="S2">S2</option>
+              <option value="S3">S3</option>
+              <option value="lainnya">Lainnya</option>
+
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Kritik & Saran</td>
+          <td>:</td>
+          <td> <textarea name="Saran" rows="10" cols="30">
+        </textarea></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="right">
+            <input type="button" class="btnCancel" value="Cancel" />
+            <input type="button" class="btnSubmit" value="Submit" />
+          </td>
+        </tr>
+
+
+      </table>
+      
+    </form>
+  </body>
+</html>

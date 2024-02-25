@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <input type="radio" name="gender" value="male" checked />Male<br />
+    <input type="radio" name="gender" value="female" checked />Female<br />
+  </body>
+</html>
